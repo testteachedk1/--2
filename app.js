@@ -1,8 +1,22 @@
- let firstNumber = 1; //задаём первое число
- let secondNumber = 10;//задаём второе число
+const N = 21;
+    
+if (N < 10) {
+    console.log("число чётное и меньше десяти ");
+} else {
+    console.log("число больше или равно десяти,false");
+    if (N % 2 == 0) {
+    console.log("число чётное, true")
+    } else {
+    console.log("число нечётно, false")
+}
+}
 
- if (firstNumber > secondNumber) { //проверяем больше ли первое число число
-    console.log("Наибольшее число = ", firstNumber``)//если больше выводим 
- } else { //если меньше первое число
-    console.log("Наибольшее число = ", secondNumber); //значит второе больше, выводим его
- }
+
+if (N < 10 || N % 2 ==0){
+
+if (N < 10 && N % 2 !=0) {
+        console.log("Меньше десяти (true), не четное (false)");
+
+}
+
+}
